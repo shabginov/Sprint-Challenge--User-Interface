@@ -113,18 +113,57 @@ p {
     align-items: center;
     justify-content: center;
 }
+section.middle-content .boxes div.box-1 {
+    background-color: teal;
+}
 
-.bottom-content {
+section.middle-content .boxes .box-2 {
+    background-color: gold;
+}
+
+section.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+}
+
+section.middle-content .boxes .box-4 {
+    background-color: coral;
+}
+
+section.middle-content .boxes .box-5 {
+    background-color: crimson;
+}
+
+section.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+}
+
+section.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+}
+
+section.middle-content .boxes .box-8 {
+    background-color: hotpink;
+}
+
+section.middle-content .boxes .box-9 {
+    background-color: indigo;
+}
+
+section.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+}
+
+section.middle-content .boxes .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+section.middle-content .boxes .bottom-content .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+section.middle-content .boxes .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
