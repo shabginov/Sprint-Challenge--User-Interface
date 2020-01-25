@@ -171,6 +171,34 @@ section.middle-content .boxes .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
+.topics {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    width: 45%;
+    padding: 5px;
+    margin: 5px;
+}
+.topic h2 {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.topic button {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
 footer {
     width: 100%;
     background: black;
