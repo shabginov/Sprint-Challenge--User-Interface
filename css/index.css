@@ -158,6 +158,10 @@ section.middle-content .boxes .bottom-content {
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+.bottom-content {
+    /* border: 1px solid blue; */
+    display: flex;
+}
 
 section.middle-content .boxes .bottom-content .text-container {
     padding-right: 4%;
